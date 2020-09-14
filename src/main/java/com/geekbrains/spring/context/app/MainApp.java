@@ -7,6 +7,8 @@ public class MainApp {
     public static void main(String[] args) {
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(ApplicationContext.class);
 
+
+
         context.close();
     }
 }
